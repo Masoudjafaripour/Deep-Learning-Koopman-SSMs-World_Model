@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
 
-GRID = 7
+GRID = 9
 CELL = 4
 IMG = GRID * CELL
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
